@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image:  url(https://wallpaperaccess.com/full/2056374.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    box-sizing: border-box;
+   
+}
+nav{
+background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ;
+height: 130px;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.image{
+     height: 100%; 
+    display: flex;
+    padding-left: 4%;
+}
+.logo{
+    color: white;
+    font-size:30px;
+    line-height: 100px;
+    font-weight: bold;
+    padding-right: 20%;
+    letter-spacing: 3px;
+
+}
+
+.h-text{
+ display: flex;
+ height: 88%;
+ align-items: center;
+}
+.h-text h3{
+    font-size: 3.5em;
+    color: white;
+    letter-spacing: 3px;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 5%;
+    background-color: rgba(182, 181, 179, 0.1);
+    transition: 0.5s;
+}
+.h-text h3:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+    
+.menu-bar a{
+    text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+}
+.menu-bar a:hover{
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 14px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 50%;
+    transform: translate(15% , -50%);
+    transition: 0.4s;
+
+}
+button:hover{
+      background: transparent;
+      border: 1px solid #fff;
+}
+
